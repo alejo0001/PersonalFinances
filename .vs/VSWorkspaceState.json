@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Assets",
+    "\\Assets\\ajax",
+    "\\Assets\\css",
+    "\\Assets\\Datatables",
+    "\\Assets\\js",
+    "\\controllers",
+    "\\models",
+    "\\views",
+    "\\views\\categories"
+  ],
+  "SelectedNode": "\\views\\categories\\index.php",
+  "PreviewInSolutionExplorer": false
+}

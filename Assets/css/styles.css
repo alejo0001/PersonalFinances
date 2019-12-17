@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body{
+    background: url(../Images/finances-background-3.jpg) fixed;
+    
+    position: relative;
+}
+
+#container{
+    width : 80%;
+    margin : 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    background: RGBA(68,242,149,.2);
+    overflow: hidden;
+    
+}
+
+a{
+    color: #01B1EA;
+}
+a:visited {
+    color: #01B1EA;
+}
+a:hover {
+    color: #555555;
+}
+
+.alert_green{
+    color : green;
+}
+
+.alert_red {
+    color: red;
+}
+
+#header{
+    width : 80%;
+    height: 145px;
+    margin: 0px auto;
+   
+}
+
+#header a{
+    color : #222222 !important;
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;    
+}
+#logo img {
+   width: 50px;
+   float: left;
+}
+
+#logo a{
+    float:left;
+    font-size: 40px;
+    letter-spacing : 4px;
+    font-family : 'Open Sans', Arial, Helvetica, Arial;
+    text-decoration : none;
+    text-transform : uppercase;
+    color: #01B1EA;
+    font-weight : bold;
+    margin-top : 18px;
+    margin-left: 25px;
+    text-shadow: 0px, 2px, 1px, #222222;
+    transition: all 300ms;
+}
+
+#logo a:hover {
+    text-shadow: 0px 2px 1px #01B1EA, 0px 0px 4px #01B1EA;
+}
+/*Menu*/
+#menu{
+    background: #222;
+    color: white;
+    height: 55px;
+    clear: both;
+    border-bottom: 4px solid #01B1EA;
+
+}
+
+
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin : 0px auto;
+    margin-left : 25px;
+
+}
+
+#menu ul li {
+    line-height : 55px;
+    float : left;
+    border-right : 1px solid #363636;
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition : all 300ms;
+}
+
+#menu a:first-child {
+    border-left: 1px solid #363636;
+}
+
+#menu a:hover{
+    background: #01B1EA;
+}
+
+/*Barra Lateral*/
+#lateral {
+    width: 22%;
+    min-height: 500px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+   
+}
+
+#lateral h3 {
+    display: block;
+    color: #222;
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #E1E1E1;
+    border-bottom: 2px solid #01B1EA;
+}
+
+#login ul li a {
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    width:100px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #2979CD;
+    border: 1px solid #11608E;
+    cursor: pointer;
+}
+
+#login ul li {
+    list-style: none;
+   
+}
+
+/*formularios*/
+
+#login h3{
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    border-radius: 5px;
+}
+
+label,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select{
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #ccc inset;
+    background: white;
+    padding: 2px;
+    color: gray;
+    transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select {
+    border: 1px solid #1579b5;
+    color: black;
+}
+
+input[type="submit"],
+input[type="button"],
+button{
+    display:block;
+    border-radius : 5px;
+    width: auto;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background: #2979CD;
+    border: 1px solid #11608E;
+    cursor: pointer;
+}
+
+label,
+input[type="submit"],
+input[type="button"],
+button{
+    display: block;
+    margin-top: 10px;
+}
+
+/*Contenido Central*/
+#central{
+    width: 75%;
+    float: right;
+    border-left: 1px solid #ccc;
+    box-shadow:-5px -1px 5px #ddd;
+    
+ 
+}
+.info{
+    overflow: auto;
+    padding-bottom : 5%;
+}
+
+.info h1
+{
+    margin-top : 2%;
+    text-align: center;
+}
+.info hr{
+    clear:both;
+}
+
+/*Pie de pagina*/
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    background: #222222;
+    border-top: 4px solid #01B1EA;    
+}
+
+
+/*Contenido*/
+.header-options{
+    width : 100%;
+    height : auto;
+    clear: both;
+}
+.new_button {
+    display: inline-block !important;
+    float: right;
+    color: #222 !important;
+    background-color: lightgreen !important;
+    margin-right: 10px;
+}
+
+.item-list{
+    margin-top : 5%;
+    margin-bottom : 5%;
+    padding-right : 3%;
+}
+
+#item{
+    text-align: center;
+    margin-top : 5%;
+    margin-left : 3%;
+    padding : 2%;
+    list-style: none;
+    width : 26%;
+    float : left;
+    background : RGBA(84,255,147,1);
+    border-radius : 5px;
+
+}
+
+#account_item {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 2%;
+    list-style: none;
+    width: 26%;
+    float: left;
+    background: RGBA(84,255,147,1);
+    border-radius: 5px;
+}
+
+#account_item:hover {
+    cursor:alias;
+}
+/*modales*/
+
+/*.modal{
+    position:absolute;
+    left : 0;
+    background: rgba(28,24,28,.5);
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: all 400ms;
+}
+
+.modal .modal-content {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    width: 30%;
+    height: auto;
+    background : #fff;
+    border-radius : 10px;
+    padding : 10px;
+}
+
+.modal .close-modal {
+    color: #fff;
+    font-family: sans-serif,Helvetica,Arial;
+    text-decoration: none;
+    
+    
+}
+
+.modal .close-container {
+    padding-top : 1%;
+    padding-left : 1%;
+}*/
